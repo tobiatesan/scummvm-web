@@ -4,7 +4,7 @@
 		<title>
 			{#downloadsXMLTitle#} <h:span style="color: rgb(170, 170, 170);">{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsXMLVersion#}</h:span>
 		</title>
-		<baseurl>/downloads/scummvm/{$release}</baseurl>
+		<baseurl>/downloads/scummvm/{$release}/</baseurl>
 		<subsection>
 			<title>{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsBinaries#}</title>
 			<anchor>stable</anchor>
@@ -536,7 +536,7 @@
 
 	<section>
 		<title>Older versions (unsupported)</title>
-		<baseurl>/downloads/scummvm</baseurl>
+		<baseurl>/downloads/scummvm/</baseurl>
 		<subsection>
 			<anchor>older</anchor>
 			<notes>
