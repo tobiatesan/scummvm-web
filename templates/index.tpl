@@ -61,6 +61,10 @@
 					<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
 				</a>
 				<br>
+				<a href="http://www.easyname.at/">
+					<img src="images/easyname-logo-big.png" width="88" height="32" alt="easyname hosting">
+				</a>
+				<br>
 				<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
 					<img src="images/GOG_button_small.png" width="88" height="32" alt="{#indexGOG#}">
 				</a>
@@ -109,10 +113,10 @@
 				<img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" alt="{#indexSupport#}">
 			</a>
 			<a href="http://www.gog.com/?pp=22d200f8670dbdb3e253a90eee5098477c95c23d">
-				<img src="images/GOG_button_small.png" alt="{#indexGOG#}" width="88" height="32">
+				<img src="images/GOG_button_small.png" alt="Buy with GOG.com" width="88" height="32">
 			</a>
-			<a href="http://easyname.com">
-				<img src="images/easyname-logo-big.png" width="88" height="32" alt="{#indexEasyname#}">
+			<a href="http://easyname.at">
+				<img src="images/easyname-logo-big.png" width="88" height="32" alt="easyname hosting">
 			</a>
 			<a href="http://validator.w3.org/check/referer">
 				<img src="http://www.w3.org/Icons/valid-html401" width="88" height="31" alt="Valid HTML 4.01!">
