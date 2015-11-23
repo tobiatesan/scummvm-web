@@ -71,8 +71,9 @@ abstract class NewsModel extends BasicModel {
 			throw new ErrorException(self::INVALID_DATE);
 		}
 		global $lang;
-		if (!is_file(($fname = DIR_NEWS . "/$lang/{$date}.xml"))
+		if (!is_file(($fname = DIR_NEWS . "$lang/{$date}.xml"))
 			|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
+
 			if (!is_file(($fname = DIR_NEWS . "/{$date}.xml"))
 				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
 				throw new ErrorException(self::FILE_NOT_FOUND);
@@ -95,7 +96,7 @@ abstract class NewsModel extends BasicModel {
 		$files = array_reverse($files);
 		$news = array();
 		foreach ($files as $filename) {
-			if (!is_file(($fname = DIR_NEWS . "/$lang/" . basename($filename)))
+			if (!is_file(($fname = DIR_NEWS . "$lang/" . basename($file)))
 				|| !is_readable($fname) || !($data = @file_get_contents($fname))) {
 				if (($data = @file_get_contents($filename))) {
 					$news[] = new News($data, $filename, $processContent);
