@@ -7,9 +7,9 @@
 	<base href="{$baseurl}">
 	<style type="text/css">
 		{* General CSS rules. *}
-		@import url("{$baseurl}css/layout.css");
-		@import url("{$baseurl}css/menu.css");
-		@import url("{$baseurl}css/lang-menu.css");
+		@import url("css/layout.css");
+		@import url("css/menu.css");
+		@import url("css/lang-menu.css");
 		{* Page specific, or other extra CSS rules. *}
 		{foreach from=$css_files item=filename}
 		@import url("{$baseurl}css/{$filename}");
