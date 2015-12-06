@@ -77,6 +77,8 @@ class ScreenshotsPage extends Controller {
 			);
 		}
 
+		global $Smarty;
+
 		return $this->renderPage(
 			array(
 				'title' => $Smarty->_config[0]['vars']['screenshotsTitle'],
