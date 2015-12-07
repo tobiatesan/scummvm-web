@@ -28,13 +28,6 @@ class Controller {
 		global $Smarty;
 		$Smarty = $this->_smarty;
 
-		/**
-		 * Multilanguage suppot
-		 */
-		if (empty($_SESSION['lang']) || !empty($_GET['lang'])) {
-		  $_SESSION['lang'] = empty($_GET['lang']) ? '' : $_GET['lang'];
-		}
-
 		global $lang;
 
 		$this->_smarty->template_dir = array("templates_$lang", 'templates');

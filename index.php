@@ -1,25 +1,18 @@
 <?php
-/**
- * Multilingual support
- */
-global $lang;
-/* Default to English */
-$lang = 'en';
-/* Check if the user has set a language preference before (cookies) */
-if (!empty($_COOKIE['lang']))
-  $lang = $_COOKIE['lang'];
-/* The GET language parameter should override any stored setting */
-if (!empty($_GET['lang']))
-  $lang = $_GET['lang'];
-/* Make sure that the language is known, otherwise fall back to English */
-if (!preg_match("/^([a-z][a-z]|[a-z][a-z]_[a-z][a-z][a-z]?)$/", $lang))
-	$lang = "en";
 
-/* We have to clean the mess introduced by double cookie at the wrong level */
-if (empty($_COOKIE['clear_lang'])) {
-	setcookie("lang", 'deleted', 1); // Setting it a current domain level, as it stays one level up
-	setcookie("clear_lang", "deleted", 1456167472); // Hardcoded to 22-Feb-2016 when previous cookie expires
+global $lang;
+
+/**
+ * Multilanguage suppot
+ */
+if (empty($_SESSION['lang']) || !empty($_GET['lang'])) {
+  $_SESSION['lang'] = empty($_GET['lang']) ? '' : $_GET['lang'];
 }
+if (empty($_SESSION['lang']) || !empty($_COOKIE['lang'])) {
+  $_SESSION['lang'] = empty($_COOKIE['lang']) ? '' : $_COOKIE['lang'];
+}
+
+$lang = $_SESSION['lang'];
 
 /* Load the configuration. */
 require_once('include/config.inc.php');
