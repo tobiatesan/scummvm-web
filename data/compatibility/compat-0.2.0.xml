@@ -14,7 +14,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Zak McKracken and the Alien Mindbenders (256 - FM-TOWNS)</name>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
                 <target>zak256</target>
                 <percent>85</percent>
                 <notes>
@@ -50,7 +50,7 @@
                 <notes>No known problems - should be playable to the end</notes>
             </game>
             <game>
-		        <name>Monkey Island 2: LeChuck's revenge</name>
+		        <name>Monkey Island 2: LeChuck\'s revenge</name>
                 <target>monkey2</target>
                 <percent>90</percent>
                 <notes>No known problems - should be playable to the end</notes>
