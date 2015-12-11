@@ -52,7 +52,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Zak McKracken and the Alien Mindbenders (256 - FM-TOWNS)</name>
+		        <name>Zak McKracken and the Alien Mindbenders (256 - FmTowns)</name>
                 <target>zak256</target>
                 <percent>85</percent>
                 <notes>
@@ -113,7 +113,7 @@
                 <notes>No known problems - should be playable to the end</notes>
             </game>
             <game>
-		        <name>Monkey Island 2: LeChuck's revenge</name>
+		        <name>Monkey Island 2: LeChuck\'s revenge</name>
                 <target>monkey2</target>
                 <percent>95</percent>
                 <notes>No known problems - should be playable to the end</notes>
@@ -323,12 +323,12 @@
                 <target>puttdemo</target>
                 <percent>70</percent>
                 <notes>
-					Should be playable to the end
+					Should be playable to the end".
 					<h:br />- talkie data not synced/properly implemented
 				</notes>
             </game>
 			<game>
-		        <name>Putt-Putt Joins The Parade (DOS)</name>
+		        <name>utt-Putt Joins The Parade (DOS)</name>
                 <target>puttputt</target>
                 <percent>10</percent>
                 <notes>
