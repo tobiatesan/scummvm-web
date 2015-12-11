@@ -115,7 +115,7 @@
                 <target>monkeyega</target>
                 <percent>95</percent>
 				<notes>
-					No known issues, game is completable.
+					No known issues, game is completable.˚Game is completable
 					<h:br />- Atari ST version requires pcjr or pcspk music driver
 					<h:br />- MIDI support requires the Roland update from LucasArts
 				</notes>
@@ -171,7 +171,7 @@
 				</notes>
             </game>
             <game>
-		        <name>Monkey Island 2: LeChuck's revenge</name>
+		        <name>Monkey Island 2: LeChuck\'s revenge</name>
                 <target>monkey2</target>
                 <percent>95</percent>
                 <notes>
@@ -181,7 +181,7 @@
 				</notes>
             </game>
 			<game>
-		        <name>Monkey Island 2: LeChuck's revenge (DOS Demo)</name>
+		        <name>Monkey Island 2: LeChuck\'s revenge (DOS Demo)</name>
                 <target>mi2demo</target>
                 <percent>10</percent>
                 <notes>
@@ -357,7 +357,7 @@
 			<game>
 		        <name>Beneath a Steel Sky</name>
                 <target>sky</target>
-                <percent>98</percent>
+                <percent>90</percent>
                 <notes>
 					Game is completable
 					<h:br />- Floppy demos are unsupported
@@ -375,8 +375,8 @@
                 <target>sword1</target>
                 <percent>98</percent>
                 <notes>
-					No known issues, game is completable.
-					<h:br />- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.
+					Game is completable.
+					<h:br />- Czech support is untested. If you have a czech version, please contact us.
 				</notes>
             </game>
 			<game>
@@ -384,8 +384,7 @@
                 <target>sword2</target>
                 <percent>98</percent>
                 <notes>
-					No known issues, game is completable.
-					<h:br />- Only the PC version has been tested. We don't have any other versions, so we can't make any promises about them.
+					Game is completable.
 				</notes>
             </game>
 		</games>
@@ -472,7 +471,7 @@
 				<target>fbear</target>
 				<percent>93</percent>
 				<notes>
-					Game should be completable, with several glitches<h:br />- 3DO, DOS and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
+					Game should be completable, with several glitches<h:br />- 3DO, DOS, Macintosh and Windows versions supported by this target<h:br />- Piano sounds aren't the correct pitch in DOS version
 					<h:br />- Cursors aren't scaled correctly
 				</notes>
 			</game>
