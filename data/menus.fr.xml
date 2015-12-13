@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <menus>
 	<group>
 		<name>Menu principal</name>
@@ -94,7 +94,7 @@
 		<name>Menu Divers</name>
 		<class>menu-misc</class>
 		<link>
-			<name>Sous-projets</name>
+			<name>Sous-projects</name>
 			<href>subprojects/</href>
 		</link>
 		<link>
