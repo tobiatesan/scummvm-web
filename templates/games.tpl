@@ -21,7 +21,7 @@
 						{#gamesContentP1#}
 					</li>
 					<li>
-						{#gamesContentP2#}
+						{#gamesContentP1#}
 					</li>
 				</ul>
 			</div>
