@@ -17,12 +17,12 @@
 			</div>
 			<div class="text">
 				<p>
-					{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP1#}
+					{#downloadsContentP1#}
 				</p>
 
 				<ul>
 					<li>
-						{'/\x7brelease\x7d/'|preg_replace:$release:#downloadsContentP2#}
+						{#downloadsContentP2#}
 					</li>
 
 					<li>
